@@ -1,0 +1,15 @@
+{
+    "name": "genesisoft/matrixrateext",
+    "description": "Extensão MatrixRate",
+    "license": "MIT",
+    "require": {"webshopapps/matrixrate": "1.0.1"},
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Genesisoft\\MatrixRateExt\\": ""
+        }
+    }
+}
